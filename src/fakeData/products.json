@@ -2,38 +2,64 @@
   {
     
     "id": 1,
-    "name": "",
-    "img": ""
+    "name": "https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg",
+    "img": "Iphone 12 pro"
 
     
   },
   {
     
     "id": 2,
-    "name": "",
-    "img": ""
+    "name": "Iphone 11 pro",
+    "img": "https://images.samsung.com/is/image/samsung/in-galaxy-z-fold2-f916-sm-f916bznainu-frontmysticbronze-thumb-296456509?$264_264_PNG$"
     
   },
   {
     
     "id": 3,
-    "name": "",
-    "img": ""
+    "name": "SamsungA12",
+    "img": "https://www.gizmochina.com/wp-content/uploads/2020/09/samsung-1-500x500.jpg"
 
   },
   {
     
     "id": 4,
-    "name": "",
-    "img": ""
+    "name": "Iphone",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-11-og-201909?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1566949840644"
     
   },
   {
     
     "id": 5,
-    "name": "",
-    "img": ""
+    "name": "Oppo A12",
+    "img": "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/reno6-pro-5g-oversea/navigation/Homepage-header2-Grey-427-x-600.png.thumb.webp"
     
     
+  },
+  {
+        "id": 6,
+        "name":"Oppo A31",
+        "img": "https://static.digit.in/default/a7955398437519b88f79fa9b1841e6906f069fab.jpeg?tr=w-1200"
+  },
+  {
+        "id": 7,
+        "name":"Oppo 2A",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRivDjqv1YyHz5qmNlJNiGwI8IV6Bgv2z8Jow&usqp=CAU"
+  },
+  {
+        "id": 8,
+        "name": "Huwai j32",
+        "img": "https://image.shutterstock.com/image-photo/kuala-lumpur-malaysia-may-29-260nw-1410375902.jpg"
+  },
+  {
+        "id" :9,
+        "name":"Huwai j",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo4-TB9GMpjLXshKBuaCN_wuNX3FRJRaeUA&usqp=CAU"
+  },
+  {
+        "id": 10,
+        "name": "SamsungA12",
+        "img": "https://www.91-img.com/pictures/136272-v6-huawei-p40-pro-mobile-phone-large-1.jpg"
   }
+
 ]

@@ -1,19 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import { useEffect, useState } from 'react';
+import Shop from './components/Shop/Shop';
+
+
 
 function App() {
-  const [mobile, setMobile] = useState([]);
-
-  useEffect(() => {
-            fetch('products.json')
-                  .then(res => res.json())
-                  .then(data => console.log(data))
-      }, []);
   return (
-    <div>
+    <div >
       <Header></Header>
+      <Shop></Shop>
+      
     </div>
   );
 }
