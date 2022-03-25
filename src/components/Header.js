@@ -6,7 +6,7 @@ const Header = () => {
             <div>
                   <div className='header'>
                         <h1 className='header1'>Mobile Phone Buy</h1> 
-                        <h2 className='header2'>Choice 4 clothes</h2>
+                        <h2 className='header2'>Choice 4 Phone</h2>
                 </div>
             </div>
       );
