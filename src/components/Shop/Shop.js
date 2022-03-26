@@ -6,6 +6,8 @@ import "./Shop.css"
 const Shop = () => {
       const [mobiles, setMobile] = useState([])
       const [cart, setCart] = useState([])
+      const [random, setRandom] = useState([])
+      console.log(random)
       
       
       // console.log(mobiles)
@@ -22,6 +24,16 @@ const Shop = () => {
       const reset = () => {
             setCart([])
       }
+      const randomSelect = (cart) => {
+            const arrayLength = cart.length
+            const number = Math.floor(Math.random() * arrayLength)
+            if (arrayLength !== 0) {
+                  setRandom(cart[number])
+            }
+            else {
+                  alert("select some product")
+            }
+      }
       
 
       return (
@@ -36,7 +48,7 @@ const Shop = () => {
                   </div>
                   <div >
                         <div className='cart-container'>
-                        <Cart cart={cart} reset ={reset}></Cart>
+                              <Cart cart={cart} reset={reset} randomSelect={randomSelect} key={ random.name}></Cart>
                         </div>
                   </div>
                   </div>
