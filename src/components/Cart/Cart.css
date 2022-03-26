@@ -5,7 +5,7 @@
 }
 .cart-container2{
       background-color: aqua;
-      height: 500px;
+      height: 650px;
       width: 300px;
       position: relative;
       
@@ -15,17 +15,34 @@
       align-items: center;
 
 }
+
+
 .btn-cart{
       height: 30px;
       width: 120px;
       position: absolute;
       border: none;
       background-color: rgb(20, 231, 213) ;
-      bottom: 0;
+      bottom: 0px;
       border-radius: 4px;
       width: 100%;
       
       font-size: 24px;
+}
+.btn-cart2{
+      height: 30px;
+      width: 120px;
+      position: absolute;
+      border: none;
+      background-color: rgb(231, 45, 20) ;
+      bottom: 37px;
+      border-radius: 4px;
+      width: 100%;
+      
+      font-size: 24px;
+}
+.btn-cart2:hover{
+      background-color: rgb(112, 71, 71);
 }
 #btn-text{
       margin-right: 14px;

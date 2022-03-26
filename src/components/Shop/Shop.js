@@ -7,6 +7,7 @@ const Shop = () => {
       const [mobiles, setMobile] = useState([])
       const [cart, setCart] = useState([])
       
+      
       // console.log(mobiles)
       useEffect(() => {
             fetch("products.json")
@@ -18,19 +19,24 @@ const Shop = () => {
             // console.log(newCart)
             setCart(newCart)
       }
+      const reset = () => {
+            setCart([])
+      }
+      
 
       return (
             <div className='shop-container'>
                   <div className='product-container'>
                         {
                               mobiles.map(mobile => <Product key={mobile.id}
-                                    mobileData={mobile} handelAddToCart={handelAddToCart }
+                                    mobileData={mobile} handelAddToCart={handelAddToCart}
                                     ></Product>)
-                       }
+                        }
+                       
                   </div>
                   <div >
                         <div className='cart-container'>
-                        <Cart cart={cart}></Cart>
+                        <Cart cart={cart} reset ={reset}></Cart>
                         </div>
                   </div>
                   </div>
